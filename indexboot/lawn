@@ -1,0 +1,462 @@
+<!doctype html>
+<html>
+ <head>
+ <!-- this is the basic html template with nav links logo and header(for bootstrap version see AAABootstrap1.0)
+ -->
+ <title>lawnCutter.com</title>
+ 	<meta charset="utf-8">
+ 	<meta charset="X-UA-Compatible" content="IE=Edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="css/bootstrap.css">
+ 	
+ 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+
+  body{
+  	max-width: 1500px;
+  	margin:40px;
+    background-color: #e5e5e5;
+  }
+
+  
+  } 
+  * {
+   
+  	font-family: oswald 400;
+
+  	border  } */*use border:red solid 1px; to see where all divs and box's overlap and extend*/
+ .rowhead {
+
+  
+  
+ 	text-align: center;
+ 	margin:auto;
+  height: 380px;
+  width: 100%;
+ 	color: #7FFF00;
+ 	font-family: oswald;
+ 	line-height: 2em;
+  background-image: url("images/lawnmower.jpg");
+  background-position: 50px -410px;
+  background-repeat: no-repeat;
+  background-color:#ccccc;
+  border-radius: 0;
+  max-width: 1500px;
+
+
+
+
+ }
+
+ h1 {
+  position: relative;
+    font-size: 8em;
+    text-align: center;
+    
+    
+
+ }
+
+
+ 
+
+  
+  
+ 
+
+
+
+
+
+ }
+
+ h2 {
+ 	font-size: 2.5em;
+  border-radius: .4em;
+ }
+
+ .toptxt {
+ 	position:relative;
+ 	background-image: url(images/grass1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 	padding:;
+ 	font-family: oswald 400;
+ 	font-size: 3.1em;
+  margin:50px;
+  color:#77C3F2;
+  opacity: ;
+ }
+
+
+
+ 
+
+.txt {
+	text-align: center;
+	position: relative;
+	top:-300px;
+	color: white;
+	font-size: 2.5em;
+	padding: 15px;
+	
+}
+
+
+
+
+}
+
+
+.imgback {
+background-image: url();
+background-repeat: no-repeat;
+width: 1000px;	
+}
+
+.rowlawn {
+	text-align: center;
+	margin-bottom: 20px;
+	position: relative;
+	margin-top: 20px;
+	
+
+}
+
+.rowfoot {
+	position: relative;
+}
+
+.rust {
+	position: fixed;
+	z-index: 5;
+	height: 500px;
+
+}
+
+.note {
+  font-size: 1.5em;
+  padding: 10px;
+  border-bottom: 1px #bfe7c3 solid;
+  text-align: center;
+}
+
+.ptxt {
+	background-color: #bfe7c3;
+	padding: 10px;
+}
+
+#grass{
+  margin:20px;
+  display: block;
+
+}
+
+footer {
+	background-color: #D1DBBD;
+  position:relative;
+  padding: 25px;
+  padding-left: 50px;
+  opacity: 0.8;
+  width: 100%;
+  float: left;
+}
+
+#webdev {
+	float: right;
+	font-style: italic;
+	padding: 25px 0 25px 25px;
+
+}
+
+
+
+.cc {
+  font-size: .9em;
+}
+
+.table {
+  position:relative;
+  width:100%;
+  font-size: 2em;
+  margin: 25px;
+  text-align: center;
+  float: right;
+  background-color:#bfe7c3;
+
+}
+
+
+
+
+th {
+ position: relative;
+ margin: 50px;
+ text-align: center;
+}
+
+#maps {
+  position: relative;
+  left: 118px;
+  
+  
+}
+
+.maptxt {
+  font-size: 1.8em;
+
+
+}
+.jumbotron {
+  
+  opacity: 0.8;
+
+}
+.jumbotext {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+#table1 {
+  float: right;
+}
+
+
+.ptest {
+  color: blue;
+  display: block;
+  height: 300px;
+  background-color: yellow;
+  float: left;
+  width: 400px;
+}
+
+footer p {
+  font-size: 2em;
+  text-align: center;
+}
+
+.tblbrk {
+  font-size: 1.5em;
+  text-align: center;
+}
+  
+
+  </style>
+ </head>
+
+
+ <body>
+ 	
+ 	<div class="container-fluid">
+   <div class="rowhead">
+  <div class="col-lg-12">
+  <h1>Lawn<i>Cutter</i>.net.au</h1> 
+  </div>
+  </div>
+  </div>
+  
+   <nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">LawnCutter.net</a>
+    </div>
+    <div>
+  
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="indexboot.html" target="_blank">Home</a></li>
+         <li><a href="indexcutnow.html" target="_blank">Cut</a></li>
+         <!--<li><a href="#" target="_blank">Lay</a></li>-->
+         <!--<li><a href="#">Landscape</a></li> add this in later-->
+          <li><a href="about.html" target="_blank">About</a></li>
+            <!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/au/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/au/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=800'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/PP_AcceptanceMarkTray-NoDiscover_243x40.png" alt="Buy now with PayPal" /></a></td></tr></table><!-- PayPal Logo -->
+      </ul>
+    </div>
+  </div>
+ </nav>
+</div>
+
+ <div class="row">
+  <div class="col-md-12">
+   <div class="rowlawn">
+    <div class="col-lg-4">
+     <h2>Lawns</h2>
+      <p class="ptxt"> Here at lawncutters.com we know what were good at, and well when were not doing that, we are cutting peoples grass for a consistantly structured fee. And if you are a Pensioner we will hit that fee with a little extra minimilation for good will.  </p>
+      <a href="#" class="btn btn-info btn-lg">Search</a>
+    </div>
+  
+  <div class="col-lg-4">
+  <h2>Easy Cut Options</h2>
+   <p class="ptxt">Things shouldnt be to hard, so we have made it a simple easy process with our full online booking system, with close to real time scheduling. Book in the date and time in the online availabillity management scheduleing semi real-time data driven system. Often refereed to as (google calender) <strong>click <ins>Cut-Now button</ins></strong> to have a look</p>
+    <a href="indexcutnow.html" class="btn btn-info btn-lg">Book in your mow here</a>
+    </div>
+ 
+ <div class="col-lg-4">
+  <h2>Pay</h2>
+   <p class="ptxt">We are aiming for a fully function online payment process with all forms of payment, We aim to use PayPal for the majority of repeat customers because of its ease of use and its online safty toward processing transactions and its approach to risk managment. </p>
+    <a href="#" class="btn btn-info btn-lg"><!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/au/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/au/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/PP_AcceptanceMarkTray-NoDiscover_243x40.png" alt="Buy now with PayPal" /></a></td></tr></table><!-- PayPal Logo --></a>
+    </div>
+  </div>
+
+
+
+<div id="grass">
+<img src="images/grass1.jpg" alt="grass" class="img-rounded" width="100%" height="500">
+</div>
+<div class="container">
+ <div class="jumbotron">
+  <h2>I have done away with quoting so....well we no longer really quote much anymore.</h2>
+  <p class="jumbotext">Majority of quotes are a waste of your time and mine,  And we are moving on from them almost hopefully all togeather, im relying on the law of averages to overcome any teething problems associated with my no quote policy.
+  Now with a simple lot size estimate it has streamlined the whole process, you tell us your estimated house block size and the corresponding price is what we will cut it for. Anything over 800m2 usually comparitive in price to size   </p>
+  </div>
+   </div>
+
+<div class="container">
+ <div class="row">
+  <div class="col-md-12">
+<div id="table">
+<table class="table table-hover">
+  <tr>
+   <th>Lot Size</th>
+   <th>Price</th>
+   
+  </tr>
+  <tr>
+   <td>Less than 500m2</td>
+   <td>$50 <i>incGST</i></td>
+   
+  </tr>
+  <tr>
+   <td>500m2 to 600m2</td>
+   <td>$60 <i>incGST</i></td>
+  </tr>
+  <tr>
+   <td>600m2 to 800m2</td>
+   <td>$70 <i>inc GST</i></td>
+  </tr>
+ <p class="note">
+ <b> Note:</b><br>- The lot size is the overall size of your allocated lot with dwelling included, in the event that there is no dwelling on the lot, a price can be agreed on before hand<br><br>
+  - The price's includes mowing, edging, blowing and some general tidy up</p>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="container">
+ <div class="row">
+  <div class="col-md-12">
+<div id="table">
+<p class="tblbrk">When the lawn care just isnt enough, we have a few little extras's that can be accomidated</p>
+<table class="table table-hover">
+  <tr>
+   <th>Extra's</th>
+   <th>Price</th>
+   
+  </tr>
+  
+   
+  </tr>
+  <tr>
+   <td>Weeding / Pruning</td>
+   <td>$30 / hour</td>
+  </tr>
+  <tr>
+   <td>Top dressing / Fertilizing</td>
+   <td>Price Varies</td>
+  </tr>
+  <tr>
+   <td>Driveway cleaning/sealing</td>
+   <td>from $250 incGST</td>
+  </table>
+   </div>
+    </div>
+     </div>
+      </div>
+      </div>
+<div class="container">
+ <div class="row">
+  <div class="col-md-8">
+   <div id="maps">
+    <iframe width="80%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=sydney&key=AIzaSyDzLwrXPknQzzGO6LBBmOgL-mKHBkyA2Yo" allowfullscreen></iframe>
+    </div>
+   </div>
+  
+  <div class="row">
+   <div class="col-md-4">
+   <p class="maptxt"> <br><span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span> This is the mowing area we cover.<p style="color:red;font-size:2em;" >(inside the red area on the map)</p> </p>
+   </div>
+  </div>
+</div>
+
+ </div>
+</div>
+<br><br>
+<div class="container">
+<div class="row">
+ <div class="col-md-12">
+ <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Thats the smell of fresh cut grass.">So can you smell that?</button>
+
+<footer>
+	
+	
+	<br><br><br>
+	 Contact Us - <a href="#emailAddresss">chris@lawncutter.net </a> <div><img src="images/mowing.svg" width="75px" height="75px"><p class="cc">Icons by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+   <br>
+    <p>This website is designed and managed by <a href="http://www.associatedsiteworks.com.au">www.associatedsiteworks.com.au</a>
+   </div>
+	
+</footer>
+</div>
+ </div>
+
+
+ </div>
+
+
+<br>
+<br>
+ <!--Put some thought into add ons like weeding, concrete cleaning, fertizing, binddi spray or removal....
+ Book in schedule
+ 1) pick lot size: <550: <650:....keep it simple (maybe offer some examples)
+ 2) pick date and time
+ 3) pick any add ons: i.e :weeding, spraying, concrete cleaning, fertilizing.
+ 4) check out< pay now or after mow.
+
+ >>>>remember there are people that want this service do not be worried <<<<
+-->
+</div>
+
+
+
+ </body>
+</html>
+
+<!--Things to do to launch----
+  tidy up all code on landing page and other 2 or 3 pages, insert email (need to verify domain), 
+  -add paypal and or credit card button and form
+
+  launch by 17/08/15
+
+
+<!--
+Step 1. Pick the date and time you want from the real-time calender.<br>
+ Step 2. Choose a price that suits you and your lawn. 
+ 
+   <!--INSERT a list in here somewhere <ol><li>small</li><li>med</li><li>lge</li>--> <!--
+  <br>
+ Step 3. Comfirm you date and approx time and you will receive a comfirmation email from me within a few hours.<br>
+ Step 4. Set and forget - one off, fortnightly, monthly, bicentennial, its really up to you.<br>
+ Step 5. Bingo <a href="" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-cloud"></span> PayDay
+        </a>
+        after the job has been done, and because life and lawns should be easy, we give you up to 14 sun-filled days to part with your hard earned cash.
+  </div>
+ </div>
+
+
+  afasaswawawq  qqasskloasdloasdload load loasdload load lololoadloadloadload load load load load load load load load jumojijumo ji jump jumo jump grunt grunt 
